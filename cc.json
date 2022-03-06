@@ -1,0 +1,20 @@
+{
+  "College": {
+    "Student": [
+      {
+        "subject": "Computer Sciences",
+        "teacher": "Mary Louis",
+        "year": 2005
+      },
+      {
+         "subject": "Mechanical",
+        "teacher": "Govind",
+        "year": 2015
+      },
+      {
+        "subject": "Electronics",
+        "teacher": "Ram",
+        "year": 2021
+      }
+    ]
+  }}
