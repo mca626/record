@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html>
+<body>
+<form>
+Enter first number:<input type="text" id="num1">
+Enter second number:<input type="text" id="num2">
+=
+<output id="result" ></output>
+<br><br>
+</form>
+<button onClick="add()">ADD</button>
+<button onClick="sub()">SUBTRACT</button>
+<button onClick="mul()">MULTIPLY</button>
+<button onClick="div()">DIVIDE</button>
+
+<script>
+function add()
+{
+var num1=parseInt(document.getElementById("num1").value);
+var num2=parseInt(document.getElementById("num2").value);
+ document.getElementById("result").value=num1+num2;
+}
+function sub()
+{
+var num1=parseInt(document.getElementById("num1").value);
+var num2=parseInt(document.getElementById("num2").value);
+ document.getElementById("result").value=num1-num2;
+}
+function mul()
+{
+var num1=parseInt(document.getElementById("num1").value);
+var num2=parseInt(document.getElementById("num2").value);
+ document.getElementById("result").value=num1*num2;
+}
+function div()
+{
+var num1=parseInt(document.getElementById("num1").value);
+var num2=parseInt(document.getElementById("num2").value);
+ document.getElementById("result").value=num1/num2;
+}
+
+</script>
+</body>
+</html>
