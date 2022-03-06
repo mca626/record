@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html>
+<head>
+<script>
+function funArea()
+{
+var rad=document.getElementById("txtRadius").value;
+var area=3.14*rad*rad;
+document.getElementById("txtArea").value=area;
+}
+
+function funCircum()
+{
+var rad=document.getElementById("txtRadius").value;
+var circum=2*3.14*rad;
+document.getElementById("txtCircum").value=circum;
+}
+</script>
+</head>
+
+<body>
+<h1><b><u>Area and Circumference of a Circle</b></u></h1>
+
+<table >
+<tr>
+ <th align="right"> radius of the circle:</th>
+<td><input type="text" id="txtRadius"></td>
+</tr>
+<tr>
+<td align="right"><button type="button" onClick="funArea()">find area</button></td>
+<td><button type="button" onClick="funCircum()">find circumference</button></td>
+</tr>
+<tr>
+ <th align="right"> Area of the circle:</th>
+<td><input type="text" id="txtArea"></td>
+</tr>
+<tr>
+ <th align="right"> circumference of the circle:</th>
+<td><input type="text" id="txtCircum"></td>
+</tr>
+</table>
+</body>
+</html>
