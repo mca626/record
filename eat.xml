@@ -1,8 +1,6 @@
 
 
-
 <?xml version="1.0" encoding="UTF-8" ?>
-
 <eatables>
  <fruits>
    <fruit1>Orange</fruit1>
@@ -10,9 +8,11 @@
    <fruit3>Grape</fruit3>
  </fruits>
  <spices>
-   <spice1>Chaitanya</spice1>
-   <spice2>31</spice2>
-   <spice3>5000$</spice3>
+   <spice1>Nutmeg</spice1>
+   <spice2>Clove</spice2>
+   <spice3>Pepper</spice3>
  </spices>
 </eatables>
+
+
 
