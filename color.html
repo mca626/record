@@ -1,0 +1,23 @@
+
+<!doctype html>
+<html>
+<body>
+select the color:
+<select id="sel" onChange="bgcolor()">
+<option value="0">white</option>
+<option value="1">green</option>
+<option value="2">blue</option>
+<option value="3">black</option>
+<option value="4">yellow</option>
+<option value="5">red</option>
+</select>
+<script>
+function bgcolor()
+{
+var color=["white","green","blue","black","yellow","red"];
+var selected=document.getElementById("sel").value;
+document.body.style.background=color[selected];
+}
+</script>
+</body>
+</html>
