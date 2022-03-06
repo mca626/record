@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--Employees salary and age details-->
+<employees>
+ <employee>
+   <name>Steve</name>
+   <age>34</age>
+   <salary>2000$</salary>
+ </employee>
+ <employee>
+   <name>Chaitanya</name>
+   <age>31</age>
+   <salary>5000$</salary>
+ </employee>
+</employees>
+</body>
+</html>
