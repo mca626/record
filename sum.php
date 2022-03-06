@@ -1,16 +1,20 @@
-   <body>
-      
-      <?php
-         $a = 0;
-         $b = 0;
-         
-         for( $i = 0; $i<5; $i++ ) {
-            $a += 10;
-            $b += 5;
-         }
-         
-         echo ("At the end of the loop a = $a and b = $b" );
-      ?>
-   
-   </body>
-</html>
+<html>  
+<body>  
+<form method="post">  
+Enter First Number:  
+<input type="number" name="number1" /><br><br>  
+Enter Second Number:  
+<input type="number" name="number2" /><br><br>  
+<input  type="submit" name="submit" value="Add">  
+</form>  
+<?php  
+    if(isset($_POST['submit']))  
+    {  
+        $number1 = $_POST['number1'];  
+        $number2 = $_POST['number2'];  
+        $sum =  $number1+$number2;     
+echo "The sum of $number1 and $number2 is: ".$sum;   
+}  
+?>  
+</body>  
+</html>  
